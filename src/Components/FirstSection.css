@@ -1,0 +1,22 @@
+.first-mainsection {
+  height: 200vh;
+  background-color: blue;
+}
+.background_video {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+.firstheading {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+}
+.firstheading > h1 {
+  font-size: 2.5rem;
+  margin-top: -450px;
+  z-index: 1;
+}

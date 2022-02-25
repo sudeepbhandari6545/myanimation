@@ -1,0 +1,42 @@
+.third-section {
+  height: 300vh;
+  background-color: black;
+}
+.logo {
+  background: url('https://images.samsung.com/is/image/samsung/p6pim/sa_en/galaxy-s21/gallery/sa-en-galaxy-s21-5g-g991-sm-g991bzvdmea-thumb-368371667?$320_320_PNG$')
+    no-repeat center center;
+  height: 50vh;
+  width: 50vw;
+  object-fit: cover;
+  position: relative;
+  top: 150px;
+}
+.heading {
+  color: white;
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  margin-right: 300px;
+  text-align: center;
+}
+.heading > h2 {
+  font-size: 2.5rem;
+}
+.heading > p {
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.button {
+  margin-top: 50px;
+}
+.button > button {
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+}
